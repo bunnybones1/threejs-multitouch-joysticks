@@ -1,0 +1,25 @@
+{
+  "name": "fortress-elephant",
+  "version": "0.0.0",
+  "description": "A mobile game. Tower Offence on the back of an adorable running elephant.",
+  "main": "index.js",
+  "scripts": {
+    "test": "beefy test.js --index=index.html"
+  },
+  "keywords": [
+    "mobile",
+    "game",
+    "fortress",
+    "elephant"
+  ],
+  "author": "Tomasz Dysinski <oz@bunnybones.com> (http://bunnybones.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "browser-event-adder": "^1.0.1",
+    "input-resize": "^2.1.1",
+    "matter-js": "^0.8.0",
+    "screenfull": "^3.0.0",
+    "three": "^0.73.0",
+    "threejs-texture-checkerboard": "^1.0.0"
+  }
+}
