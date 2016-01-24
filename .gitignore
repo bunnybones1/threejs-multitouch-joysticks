@@ -1,4 +1,4 @@
 node_modules
 !src/node_modules
-bundle.js
-bundle.min.js
+dist/bundle.js
+dist/bundle.min.js

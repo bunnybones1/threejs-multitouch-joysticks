@@ -4,8 +4,8 @@
   "description": "A mobile game. Tower Offence on the back of an adorable running elephant.",
   "main": "index.js",
   "scripts": {
-    "test": "beefy test.js --index=dev.html",
-    "build": "browserify test.js > bundle.js && uglifyjs bundle.js -m -c -o bundle.min.js"
+    "test": "beefy test.js --index=dev.html --open --live",
+    "build": "browserify test.js > dist/bundle.js && uglifyjs dist/bundle.js -m -c -o dist/bundle.min.js"
   },
   "keywords": [
     "mobile",
