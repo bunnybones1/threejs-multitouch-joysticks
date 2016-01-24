@@ -1,10 +1,11 @@
 {
   "name": "fortress-elephant",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A mobile game. Tower Offence on the back of an adorable running elephant.",
   "main": "index.js",
   "scripts": {
-    "test": "beefy test.js --index=index.html"
+    "test": "beefy test.js --index=dev.html",
+    "build": "browserify test.js > bundle.js && uglifyjs bundle.js -m -c -o bundle.min.js"
   },
   "keywords": [
     "mobile",
@@ -24,5 +25,9 @@
     "screenfull": "^3.0.0",
     "three": "^0.73.0",
     "threejs-texture-checkerboard": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "uglify-js": "^2.6.1"
   }
 }
