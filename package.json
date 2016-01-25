@@ -1,6 +1,6 @@
 {
   "name": "fortress-elephant",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A mobile game. Tower Offence on the back of an adorable running elephant.",
   "main": "index.js",
   "scripts": {
