@@ -17,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "browser-event-adder": "^1.0.1",
+    "clamp": "^1.0.1",
     "eases": "^1.0.8",
     "input-resize": "^2.1.1",
     "lerp": "^1.0.3",
