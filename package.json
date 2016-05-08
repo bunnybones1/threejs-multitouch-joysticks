@@ -30,7 +30,8 @@
     "raf-tweener": "^3.0.3",
     "screenfull": "^3.0.0",
     "three": "^0.73.0",
-    "threejs-texture-checkerboard": "^1.0.0"
+    "threejs-texture-checkerboard": "^1.0.0",
+    "urlparam": "^1.0.1"
   },
   "devDependencies": {
     "audiosprite": "^0.6.0",
