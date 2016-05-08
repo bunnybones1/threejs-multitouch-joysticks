@@ -1,7 +1,7 @@
 {
-  "name": "fortress-elephant",
-  "version": "0.0.2",
-  "description": "A mobile game. Tower Offence on the back of an adorable running elephant.",
+  "name": "tojam11-fortress-awesome",
+  "version": "0.0.1",
+  "description": "A mobile game. Street brawler with moral consequences.",
   "main": "index.js",
   "scripts": {
     "test": "beefy test.js --index=dev.html --open --live",
@@ -10,10 +10,12 @@
   "keywords": [
     "mobile",
     "game",
-    "fortress",
-    "elephant"
+    "tojam"
   ],
-  "author": "Tomasz Dysinski <oz@bunnybones.com> (http://bunnybones.com/)",
+  "authors": [
+    "Tomasz Dysinski <oz@bunnybones.com> (http://bunnybones.com/)",
+    "Robbie Keogh <idontknow@gmail.com> (http://robbieswebite.com/)"
+  ],
   "license": "ISC",
   "dependencies": {
     "browser-event-adder": "^1.0.1",
