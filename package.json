@@ -29,6 +29,7 @@
     "md5": "^2.0.0",
     "raf-tweener": "^3.0.3",
     "screenfull": "^3.0.0",
+    "shape2d-triangulate": "0.0.2",
     "three": "^0.73.0",
     "threejs-texture-checkerboard": "^1.0.0",
     "urlparam": "^1.0.1"
